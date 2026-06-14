@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NeoX Terminal</string>
+    <string name="enter_command">Enter command...</string>
+    <string name="ai_placeholder">Ask NeoX AI...</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="20dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/greeting_text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Good morning, operator" android:textColor="@color/text_primary"
+                    android:textSize="18sp" android:fontFamily="monospace" android:textStyle="bold"/>
+                <TextView android:id="@+id/date_text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="@color/text_secondary" android:textSize="12sp" android:fontFamily="monospace"/>
+            </LinearLayout>
+            <TextView android:id="@+id/clock_text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="00:00:00" android:textColor="@color/neon_green" android:textSize="20sp" android:fontFamily="monospace"/>
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="// QUICK ACTIONS" android:textColor="@color/text_secondary"
+            android:fontFamily="monospace" android:textSize="11sp" android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btn_new_terminal" style="@style/NeoButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="⌨  New Terminal" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_packages" style="@style/NeoButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="📦  Package Manager" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_ai" style="@style/NeoButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="🤖  AI Assistant" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_settings" style="@style/NeoButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="⚙  Settings"/>
+    </LinearLayout>
+</ScrollView>
