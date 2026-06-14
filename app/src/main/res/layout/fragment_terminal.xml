@@ -27,7 +27,7 @@
             android:text="$ " android:textColor="@color/neon_purple" android:fontFamily="monospace" android:textSize="14sp"/>
         <EditText android:id="@+id/command_input"
             android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
-            android:background="@null" android:hint="@string/enter_command" android:hintTextColor="@color/text_dim"
+            android:background="@null" android:hint="@string/enter_command" 
             android:textColor="@color/text_primary" android:fontFamily="monospace" android:textSize="13sp"
             android:imeOptions="actionSend" android:inputType="textNoSuggestions|textVisiblePassword"/>
         <Button android:id="@+id/btn_send" style="@style/NeoButton"

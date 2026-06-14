@@ -21,7 +21,7 @@
         <EditText android:id="@+id/input_field"
             android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
             android:background="@null" android:hint="@string/ai_placeholder"
-            android:hintTextColor="@color/text_dim" android:textColor="@color/text_primary"
+             android:textColor="@color/text_primary"
             android:fontFamily="monospace" android:textSize="13sp" android:imeOptions="actionSend"/>
         <Button android:id="@+id/btn_send" style="@style/NeoButton"
             android:layout_width="wrap_content" android:layout_height="40dp" android:text="ASK"/>
