@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/bg_primary" android:gravity="center" android:orientation="vertical" android:padding="32dp">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="NeoX Terminal" android:textColor="@color/neon_green"
-        android:textSize="36sp" android:fontFamily="monospace" android:textStyle="bold"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="v1.0 — Advanced Terminal" android:textColor="@color/text_secondary"
-        android:textSize="13sp" android:fontFamily="monospace" android:layout_marginTop="8dp"/>
-    <TextView android:id="@+id/boot_log" android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:fontFamily="monospace"
-        android:textColor="@color/neon_cyan" android:textSize="12sp"
-        android:lineSpacingMultiplier="1.6" android:layout_marginTop="48dp"/>
-    <ProgressBar android:id="@+id/progress_bar"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="match_parent" android:layout_height="4dp"
-        android:layout_marginTop="32dp" android:max="100" android:progress="0"
-        android:progressTint="@color/neon_green" android:progressBackgroundTint="@color/bg_card"/>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0F"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NeoX Terminal"
+        android:textColor="#00FF88"
+        android:textSize="36sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textColor="#667788"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="16dp"/>
+
 </LinearLayout>
